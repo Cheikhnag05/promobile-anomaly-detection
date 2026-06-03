@@ -10,8 +10,8 @@ venv/
 data/raw/*.parquet
 data/processed/*.parquet
 
-# Modèles ML (fichiers lourds)
-models/*.pkl
+# Modèles ML — inclus pour le déploiement
+# models/*.pkl
 
 # Node / Frontend
 frontend/node_modules/

@@ -1,4 +1,4 @@
-import { Activity, Radio, Map, Zap, Brain, ChevronRight } from 'lucide-react'
+import { Activity, Radio, Map, Zap, Brain, ChevronRight, Info } from 'lucide-react'
 
 const NAV = [
   { id: 'overview', label: 'Vue Générale', icon: Activity },
@@ -6,6 +6,7 @@ const NAV = [
   { id: 'map', label: 'Carte des Tours', icon: Map },
   { id: 'predict', label: 'Prédiction Live', icon: Radio },
   { id: 'model', label: 'Modèle IA', icon: Brain },
+  { id: 'about', label: 'À propos', icon: Info },
 ]
 
 export default function Sidebar({ current, onChange }) {
