@@ -1,0 +1,22 @@
+{
+  "total_rows": 8000000,
+  "total_anomalies": 120000,
+  "anomaly_rate_pct": 1.5,
+  "towers": 50,
+  "date_start": "2024-01-01 00:00:00",
+  "date_end": "2024-12-31 00:00:00",
+  "anomaly_types": {
+    "latency_spike": 20234,
+    "interference_event": 20042,
+    "throughput_collapse": 19952,
+    "packet_loss_burst": 19944,
+    "signal_degradation": 19935,
+    "call_drop_surge": 19893
+  },
+  "severity_dist": {
+    "low": 47973,
+    "medium": 35768,
+    "high": 24218,
+    "critical": 12041
+  }
+}

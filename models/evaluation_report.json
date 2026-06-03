@@ -1,0 +1,36 @@
+{
+  "random_forest": {
+    "precision": 0.9951,
+    "recall": 0.9623,
+    "f1": 0.9785,
+    "roc_auc": 0.9906
+  },
+  "isolation_forest": {
+    "precision": 1.0,
+    "recall": 0.0182,
+    "f1": 0.0358
+  },
+  "feature_importances": {
+    "latency_ms_rstd": 0.1298,
+    "interference_ratio_rstd": 0.1042,
+    "throughput_mbps_rstd": 0.0974,
+    "health": 0.0788,
+    "packet_loss_pct_rstd": 0.0763,
+    "signal_strength_dbm_rstd": 0.0762,
+    "call_drop_rate_rstd": 0.0427,
+    "signal_strength_dbm": 0.0356,
+    "signal_strength_dbm_zscore": 0.03,
+    "signal_strength_dbm_rmean": 0.0268,
+    "call_drop_rate_delta": 0.0251,
+    "throughput_mbps": 0.0234,
+    "interference_ratio_delta": 0.0222,
+    "interference_ratio": 0.0217,
+    "latency_ms_delta": 0.0212,
+    "packet_loss_pct": 0.0187,
+    "packet_loss_pct_zscore": 0.0172,
+    "latency_ms_zscore": 0.0162,
+    "call_drop_rate_zscore": 0.0162,
+    "interference_ratio_zscore": 0.0161
+  },
+  "n_features": 45
+}

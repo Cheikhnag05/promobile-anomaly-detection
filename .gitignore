@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Data (fichiers lourds)
+data/raw/*.parquet
+data/processed/*.parquet
+
+# Modèles ML (fichiers lourds)
+models/*.pkl
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

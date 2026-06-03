@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #060D1A;
+  color: #e2e8f0;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0E1E3A;
+}
+::-webkit-scrollbar-thumb {
+  background: #243E6A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #378ADD;
+}
+
+.leaflet-container {
+  background: #0E1E3A !important;
+}
+
+@layer components {
+  .card {
+    @apply bg-dark-800 border border-dark-600 rounded-xl p-5;
+  }
+  .badge-critical {
+    @apply bg-brand-red/20 text-brand-red border border-brand-red/40 text-xs font-semibold px-2 py-0.5 rounded-full;
+  }
+  .badge-high {
+    @apply bg-brand-orange/20 text-brand-orange border border-brand-orange/40 text-xs font-semibold px-2 py-0.5 rounded-full;
+  }
+  .badge-medium {
+    @apply bg-brand-amber/20 text-brand-amber border border-brand-amber/40 text-xs font-semibold px-2 py-0.5 rounded-full;
+  }
+  .badge-low {
+    @apply bg-brand-green/20 text-brand-green border border-brand-green/40 text-xs font-semibold px-2 py-0.5 rounded-full;
+  }
+  .badge-none {
+    @apply bg-slate-700/50 text-slate-400 border border-slate-600/40 text-xs font-semibold px-2 py-0.5 rounded-full;
+  }
+}
