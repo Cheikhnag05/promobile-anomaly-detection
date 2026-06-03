@@ -1,4 +1,4 @@
-import { Github, Linkedin, ExternalLink, Database, Cpu, Globe, Code2 } from 'lucide-react'
+import { ExternalLink, Database, Cpu, Globe, Code2, Link } from 'lucide-react'
 import PageHeader from '../components/PageHeader'
 
 const STACK = [
@@ -39,7 +39,7 @@ export default function About() {
               <div className="flex gap-3 mt-3">
                 <a href="https://github.com/Cheikhnag05/promobile-anomaly-detection" target="_blank"
                   className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white transition-colors">
-                  <Github className="w-3.5 h-3.5" /> Code source
+                  <Link className="w-3.5 h-3.5" /> Code source
                 </a>
                 <a href="https://promobile-api.onrender.com/docs" target="_blank"
                   className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white transition-colors">
@@ -92,11 +92,11 @@ export default function About() {
               <div className="flex gap-3 mt-2">
                 <a href="https://linkedin.com/in/cheikhnagueye" target="_blank"
                   className="flex items-center gap-1.5 px-3 py-1.5 bg-[#0A66C2]/20 hover:bg-[#0A66C2]/40 border border-[#0A66C2]/40 text-[#64B5F6] text-xs rounded-lg transition-colors">
-                  <Linkedin className="w-3.5 h-3.5" /> LinkedIn
+                  <ExternalLink className="w-3.5 h-3.5" /> LinkedIn
                 </a>
                 <a href="https://github.com/Cheikhnag05" target="_blank"
                   className="flex items-center gap-1.5 px-3 py-1.5 bg-dark-700 hover:bg-dark-600 border border-dark-500 text-slate-300 text-xs rounded-lg transition-colors">
-                  <Github className="w-3.5 h-3.5" /> GitHub
+                  <Link className="w-3.5 h-3.5" /> GitHub
                 </a>
               </div>
             </div>
