@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const BASE = import.meta.env.VITE_API_URL || 'https://promobile-api.onrender.com'
 
 export const api = {
   health: () => axios.get(`${BASE}/health`).then(r => r.data),

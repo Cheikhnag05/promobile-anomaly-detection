@@ -28,7 +28,7 @@ export default function Sidebar({ current, onChange }) {
       <div className="px-4 py-3 border-b border-dark-600">
         <div className="flex items-center gap-2 text-xs text-slate-400">
           <span className="w-2 h-2 rounded-full bg-brand-green animate-pulse-slow" />
-          API connectée · localhost:8000
+          API · promobile-api.onrender.com
         </div>
       </div>
 

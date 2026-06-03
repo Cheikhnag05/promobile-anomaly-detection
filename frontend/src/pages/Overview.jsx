@@ -35,7 +35,7 @@ export default function Overview() {
   useEffect(() => {
     api.stats()
       .then(setStats)
-      .catch(() => setError('API hors ligne — lancez: uvicorn api.main:app --reload'))
+      .catch(() => setError('API hors ligne — vérifiez https://promobile-api.onrender.com/health'))
       .finally(() => setLoading(false))
   }, [])
 
